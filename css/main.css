@@ -1,0 +1,158 @@
+
+@font-face {
+  font-family: "Bitter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/bitter-v19-latin-regular.woff2") format("woff2"), url("../fonts/bitter-v19-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Bitter";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/bitter-v19-latin-900.woff2") format("woff2"), url("../fonts/bitter-v19-latin-900.woff") format("woff"); 
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #F8EBE9;
+  font-family: "Bitter", serif;
+}
+
+.wrapper {
+  display: flex;
+  width: 1000px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  box-shadow: 0 20px 25px -5px #e5a59b;
+}
+
+.left{
+  line-height: 0;
+}
+
+.right{
+  padding-left: 80px;
+}
+
+.right-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.right-top-link{
+  display: flex;
+  align-items: center;
+  margin-left: -400px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  opacity: 0.5;
+  font-weight: 900;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+.right-top-link:hover{
+  opacity: 1;
+}
+
+.right-top-link img{
+  height: 15px;
+  margin-bottom: 3px;
+}
+
+.navbar{
+  display: flex;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+.navbar-item {
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+
+.navbar-link{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  font-weight: 900;
+  opacity: 0.5;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+.navbar-link:hover{
+  opacity: 1;
+}
+
+.active{
+  opacity: 1;
+}
+
+.right-header{
+  display: flex;
+  align-items: flex-end;
+}
+
+.header{
+  margin-top: 120px;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.line{
+  width: 100px;
+  margin-bottom: 57px;
+  margin-left: 20px;
+  height: 4px;
+  background-color: #000;
+}
+
+.bottom{
+  margin-top: 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.bottom-left{
+  margin-right: 30px;
+}
+
+.bottom-left-link{
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  opacity: 0.5;
+  font-weight: 900;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.bottom-left-link img{
+  height: 18px;
+  margin-bottom: 3px;
+}
+
+.bottom-right {
+  padding-right: 60px;
+}
+
+.bottom-right-text {
+  margin-top: -7px;
+  line-height: 2;
+}
